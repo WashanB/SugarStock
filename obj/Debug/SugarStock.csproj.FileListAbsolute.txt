@@ -21,3 +21,22 @@ C:\Users\carlo\OneDrive\Music\PROYECTO METODLOGIA\SugarStock\obj\Debug\SugarStoc
 C:\Users\carlo\OneDrive\Music\PROYECTO METODLOGIA\SugarStock\obj\Debug\SugarStock.csproj.GenerateResource.cache
 C:\Users\carlo\OneDrive\Music\PROYECTO METODLOGIA\SugarStock\obj\Debug\SugarStock.csproj.CoreCompileInputs.cache
 C:\Users\carlo\OneDrive\Music\PROYECTO METODLOGIA\SugarStock\obj\Debug\SugarStock.g.resources
+C:\Users\basti\Source\documents\c#\bin\Debug\SugarStock.exe.config
+C:\Users\basti\Source\documents\c#\bin\Debug\SugarStock.exe
+C:\Users\basti\Source\documents\c#\bin\Debug\SugarStock.pdb
+C:\Users\basti\Source\documents\c#\obj\Debug\SugarStock.csproj.AssemblyReference.cache
+C:\Users\basti\Source\documents\c#\obj\Debug\SugarStock.g.resources
+C:\Users\basti\Source\documents\c#\obj\Debug\SugarStock.Forms.resources
+C:\Users\basti\Source\documents\c#\obj\Debug\SugarStock.FORMs.Menu_principal.resources
+C:\Users\basti\Source\documents\c#\obj\Debug\SugarStock.FORMs.ORDENAR.resources
+C:\Users\basti\Source\documents\c#\obj\Debug\SugarStock.Properties.Resources.resources
+C:\Users\basti\Source\documents\c#\obj\Debug\SugarStock.csproj.GenerateResource.cache
+C:\Users\basti\Source\documents\c#\obj\Debug\SugarStock.csproj.CoreCompileInputs.cache
+C:\Users\basti\Source\documents\c#\obj\Debug\SugarStock.exe
+C:\Users\basti\Source\documents\c#\obj\Debug\SugarStock.pdb
+C:\Users\basti\Source\documents\c#\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\basti\Source\documents\c#\bin\Debug\Spire.Pdf.dll
+C:\Users\basti\Source\documents\c#\bin\Debug\Microsoft.mshtml.dll
+C:\Users\basti\Source\documents\c#\bin\Debug\Spire.Pdf.xml
+C:\Users\basti\Source\documents\c#\obj\Debug\SugarStock.csproj.Up2Date
+C:\Users\basti\Source\documents\c#\obj\Debug\SugarStock.FORMs.Owner.resources
