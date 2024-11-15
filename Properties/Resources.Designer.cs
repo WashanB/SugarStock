@@ -83,9 +83,9 @@ namespace SugarStock.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap images_1 {
+        internal static System.Drawing.Bitmap images_3 {
             get {
-                object obj = ResourceManager.GetObject("images 1", resourceCulture);
+                object obj = ResourceManager.GetObject("images 3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,49 @@ namespace SugarStock.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap images_3 {
+        internal static System.Drawing.Bitmap images_4 {
             get {
-                object obj = ResourceManager.GetObject("images 3", resourceCulture);
+                object obj = ResourceManager.GetObject("images 4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images11 {
+            get {
+                object obj = ResourceManager.GetObject("images11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Merengue_Frances_Receta_6_1 {
+            get {
+                object obj = ResourceManager.GetObject("Merengue-Frances-Receta-6 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Untitled_1 {
+            get {
+                object obj = ResourceManager.GetObject("Untitled 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Untitled_2 {
+            get {
+                object obj = ResourceManager.GetObject("Untitled 2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

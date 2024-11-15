@@ -36,12 +36,14 @@ namespace SugarStock
 
         private void BtnCreate_Click(object sender, EventArgs e)
         {
-            int id = int.Parse(TxtUser.Text);
-            string password  = TxtPassword.Text;
-            if (credenciales.Textcorrect(id, password) == true) 
+            //int id = int.Parse(TxtUser.Text);
+            //string password  = TxtPassword.Text;
+            principalmenu.Show();
+            this.Hide();
+            //if (credenciales.Textcorrect(id, password) == true) 
             {
-                principalmenu.Show();
-                this.Hide();
+                //principalmenu.Show();
+                //this.Hide();
             }
            
             

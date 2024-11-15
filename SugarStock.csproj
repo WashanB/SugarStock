@@ -67,6 +67,7 @@
       <DependentUpon>ORDENAR.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Credenciales.cs" />
+    <Compile Include="Models\Nav.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FORMs\Forms.resx">
@@ -105,13 +106,27 @@
     <None Include="Resources\brownies-de-chocolate-2 1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\images 11.png" />
+    <Resource Include="Resources\images11.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\image 6.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\images 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Merengue-Frances-Receta-6 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled 2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

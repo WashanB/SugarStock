@@ -20,3 +20,4 @@ C:\Users\carlo\OneDrive\Music\PROYECTO METODLOGIA\SugarStock\obj\Debug\SugarStoc
 C:\Users\carlo\OneDrive\Music\PROYECTO METODLOGIA\SugarStock\obj\Debug\SugarStock.Properties.Resources.resources
 C:\Users\carlo\OneDrive\Music\PROYECTO METODLOGIA\SugarStock\obj\Debug\SugarStock.csproj.GenerateResource.cache
 C:\Users\carlo\OneDrive\Music\PROYECTO METODLOGIA\SugarStock\obj\Debug\SugarStock.csproj.CoreCompileInputs.cache
+C:\Users\carlo\OneDrive\Music\PROYECTO METODLOGIA\SugarStock\obj\Debug\SugarStock.g.resources
