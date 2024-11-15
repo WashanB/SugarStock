@@ -1,8 +1,10 @@
-﻿using SugarStock.Models;
+﻿using SugarStock.FORMs;
+using SugarStock.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -19,6 +21,8 @@ namespace SugarStock
         }
         
         Credenciales credenciales = new Credenciales();
+        ORDENAR order = new ORDENAR();
+        Menu_principal principalmenu = new Menu_principal();
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -34,7 +38,14 @@ namespace SugarStock
         {
             int id = int.Parse(TxtUser.Text);
             string password  = TxtPassword.Text;
-            credenciales.TextIncorrect(id, password);
+            if (credenciales.Textcorrect(id, password) == true) 
+            {
+                principalmenu.Show();
+                this.Hide();
+            }
+           
+            
+            
 
         }
 

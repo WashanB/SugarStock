@@ -11,21 +11,24 @@ namespace SugarStock.Models
     internal class Credenciales
     {
      
-        public void TextIncorrect(int id , string password)
+        public bool Textcorrect(int id , string password)
         {
 
           
             if (id == 1234 && password == "5678")
             {
                 MessageBox.Show("WELCOME COSTUMER");
+                return true;
             }
             else if(id == 0000 && password == "Admin00")
             {
                 MessageBox.Show("WELCOME OWNER");
+                return false;
             }
             else
             {
                 MessageBox.Show("INVALID LOGIN");
+                return false;
             }
 
     

@@ -8,3 +8,15 @@ C:\Users\basti\source\C#\SugarStock\SugarStock\obj\Debug\SugarStock.csproj.Gener
 C:\Users\basti\source\C#\SugarStock\SugarStock\obj\Debug\SugarStock.csproj.CoreCompileInputs.cache
 C:\Users\basti\source\C#\SugarStock\SugarStock\obj\Debug\SugarStock.exe
 C:\Users\basti\source\C#\SugarStock\SugarStock\obj\Debug\SugarStock.pdb
+C:\Users\carlo\OneDrive\Music\PROYECTO METODLOGIA\SugarStock\obj\Debug\SugarStock.csproj.AssemblyReference.cache
+C:\Users\carlo\OneDrive\Music\PROYECTO METODLOGIA\SugarStock\obj\Debug\SugarStock.exe
+C:\Users\carlo\OneDrive\Music\PROYECTO METODLOGIA\SugarStock\obj\Debug\SugarStock.pdb
+C:\Users\carlo\OneDrive\Music\PROYECTO METODLOGIA\SugarStock\bin\Debug\SugarStock.exe.config
+C:\Users\carlo\OneDrive\Music\PROYECTO METODLOGIA\SugarStock\bin\Debug\SugarStock.exe
+C:\Users\carlo\OneDrive\Music\PROYECTO METODLOGIA\SugarStock\bin\Debug\SugarStock.pdb
+C:\Users\carlo\OneDrive\Music\PROYECTO METODLOGIA\SugarStock\obj\Debug\SugarStock.Forms.resources
+C:\Users\carlo\OneDrive\Music\PROYECTO METODLOGIA\SugarStock\obj\Debug\SugarStock.FORMs.Menu_principal.resources
+C:\Users\carlo\OneDrive\Music\PROYECTO METODLOGIA\SugarStock\obj\Debug\SugarStock.FORMs.ORDENAR.resources
+C:\Users\carlo\OneDrive\Music\PROYECTO METODLOGIA\SugarStock\obj\Debug\SugarStock.Properties.Resources.resources
+C:\Users\carlo\OneDrive\Music\PROYECTO METODLOGIA\SugarStock\obj\Debug\SugarStock.csproj.GenerateResource.cache
+C:\Users\carlo\OneDrive\Music\PROYECTO METODLOGIA\SugarStock\obj\Debug\SugarStock.csproj.CoreCompileInputs.cache

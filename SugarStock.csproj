@@ -54,34 +54,44 @@
     <Compile Include="FORMs\Forms.Designer.cs">
       <DependentUpon>Forms.cs</DependentUpon>
     </Compile>
-    <Compile Include="FORMs\CreateUser.cs">
+    <Compile Include="FORMs\Menu_principal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FORMs\CreateUser.Designer.cs">
-      <DependentUpon>CreateUser.cs</DependentUpon>
+    <Compile Include="FORMs\Menu_principal.Designer.cs">
+      <DependentUpon>Menu_principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMs\ORDENAR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMs\ORDENAR.Designer.cs">
+      <DependentUpon>ORDENAR.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Credenciales.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FORMs\CreateUser.resx">
-      <DependentUpon>CreateUser.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FORMs\Forms.resx">
       <DependentUpon>Forms.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FORMs\Menu_principal.resx">
+      <DependentUpon>Menu_principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMs\ORDENAR.resx">
+      <DependentUpon>ORDENAR.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -91,6 +101,17 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\brownies-de-chocolate-2 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image 6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images 3.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
