@@ -40,3 +40,22 @@ C:\Users\basti\Source\documents\c#\bin\Debug\Microsoft.mshtml.dll
 C:\Users\basti\Source\documents\c#\bin\Debug\Spire.Pdf.xml
 C:\Users\basti\Source\documents\c#\obj\Debug\SugarStock.csproj.Up2Date
 C:\Users\basti\Source\documents\c#\obj\Debug\SugarStock.FORMs.Owner.resources
+C:\Users\carlo\OneDrive\Documentos\MECAGO EN TODO\bin\Debug\SugarStock.exe.config
+C:\Users\carlo\OneDrive\Documentos\MECAGO EN TODO\bin\Debug\SugarStock.exe
+C:\Users\carlo\OneDrive\Documentos\MECAGO EN TODO\bin\Debug\SugarStock.pdb
+C:\Users\carlo\OneDrive\Documentos\MECAGO EN TODO\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\carlo\OneDrive\Documentos\MECAGO EN TODO\bin\Debug\Spire.Pdf.dll
+C:\Users\carlo\OneDrive\Documentos\MECAGO EN TODO\bin\Debug\Microsoft.mshtml.dll
+C:\Users\carlo\OneDrive\Documentos\MECAGO EN TODO\bin\Debug\Spire.Pdf.xml
+C:\Users\carlo\OneDrive\Documentos\MECAGO EN TODO\obj\Debug\SugarStock.csproj.AssemblyReference.cache
+C:\Users\carlo\OneDrive\Documentos\MECAGO EN TODO\obj\Debug\SugarStock.g.resources
+C:\Users\carlo\OneDrive\Documentos\MECAGO EN TODO\obj\Debug\SugarStock.Forms.resources
+C:\Users\carlo\OneDrive\Documentos\MECAGO EN TODO\obj\Debug\SugarStock.FORMs.Menu_principal.resources
+C:\Users\carlo\OneDrive\Documentos\MECAGO EN TODO\obj\Debug\SugarStock.FORMs.ORDENAR.resources
+C:\Users\carlo\OneDrive\Documentos\MECAGO EN TODO\obj\Debug\SugarStock.FORMs.Owner.resources
+C:\Users\carlo\OneDrive\Documentos\MECAGO EN TODO\obj\Debug\SugarStock.Properties.Resources.resources
+C:\Users\carlo\OneDrive\Documentos\MECAGO EN TODO\obj\Debug\SugarStock.csproj.GenerateResource.cache
+C:\Users\carlo\OneDrive\Documentos\MECAGO EN TODO\obj\Debug\SugarStock.csproj.CoreCompileInputs.cache
+C:\Users\carlo\OneDrive\Documentos\MECAGO EN TODO\obj\Debug\SugarStock.csproj.Up2Date
+C:\Users\carlo\OneDrive\Documentos\MECAGO EN TODO\obj\Debug\SugarStock.exe
+C:\Users\carlo\OneDrive\Documentos\MECAGO EN TODO\obj\Debug\SugarStock.pdb

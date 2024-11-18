@@ -22,9 +22,10 @@ namespace SugarStock.FORMs
         }
 
         ORDENAR order = new ORDENAR();
-        Nav nav = new Nav(); 
+        
+        Nav nav = new Nav();
 
-      
+       
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             string pname = "Pan de Banano";
@@ -98,6 +99,11 @@ namespace SugarStock.FORMs
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
         {
 
         }
