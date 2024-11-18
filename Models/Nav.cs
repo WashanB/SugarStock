@@ -29,7 +29,7 @@ namespace SugarStock.Models
                 currentForm.Hide();
                 if (forms.Count > 0)
                 {
-                    forms.Peek().Show(); // Mostrar el formulario anterior
+                    forms.Peek().Show(); //Mostrar el formulario anterior
                 }
             }
         }
