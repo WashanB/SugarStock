@@ -76,27 +76,14 @@
             // 
             // TxtUser
             // 
-<<<<<<< HEAD
-            this.TxtUser.Location = new System.Drawing.Point(245, 98);
-            this.TxtUser.Margin = new System.Windows.Forms.Padding(4);
-=======
             this.TxtUser.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtUser.ForeColor = System.Drawing.Color.LightGray;
             this.TxtUser.Location = new System.Drawing.Point(29, 239);
             this.TxtUser.Multiline = true;
->>>>>>> 60d8a01104cc3906ddb2c5948b09750044359dd7
             this.TxtUser.Name = "TxtUser";
             this.TxtUser.Size = new System.Drawing.Size(370, 32);
             this.TxtUser.TabIndex = 3;
-<<<<<<< HEAD
-            this.TxtUser.TextChanged += new System.EventHandler(this.TxtUser_TextChanged);
-            // 
-            // TxtPassword
-            // 
-            this.TxtPassword.Location = new System.Drawing.Point(245, 203);
-            this.TxtPassword.Margin = new System.Windows.Forms.Padding(4);
-=======
             this.TxtUser.Text = "Username:";
             this.TxtUser.TextChanged += new System.EventHandler(this.TxtUser_TextChanged);
             this.TxtUser.Enter += new System.EventHandler(this.TxtUser_Enter);
@@ -110,7 +97,6 @@
             this.TxtPassword.ForeColor = System.Drawing.Color.LightGray;
             this.TxtPassword.Location = new System.Drawing.Point(29, 337);
             this.TxtPassword.Multiline = true;
->>>>>>> 60d8a01104cc3906ddb2c5948b09750044359dd7
             this.TxtPassword.Name = "TxtPassword";
             this.TxtPassword.Size = new System.Drawing.Size(370, 33);
             this.TxtPassword.TabIndex = 4;
@@ -123,12 +109,7 @@
             // 
             this.BtnCreate.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BtnCreate.ForeColor = System.Drawing.SystemColors.ControlText;
-<<<<<<< HEAD
-            this.BtnCreate.Location = new System.Drawing.Point(315, 308);
-            this.BtnCreate.Margin = new System.Windows.Forms.Padding(4);
-=======
             this.BtnCreate.Location = new System.Drawing.Point(130, 465);
->>>>>>> 60d8a01104cc3906ddb2c5948b09750044359dd7
             this.BtnCreate.Name = "BtnCreate";
             this.BtnCreate.Size = new System.Drawing.Size(151, 40);
             this.BtnCreate.TabIndex = 5;
@@ -209,21 +190,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
-            this.BackColor = System.Drawing.Color.GhostWhite;
-            this.ClientSize = new System.Drawing.Size(752, 554);
-            this.Controls.Add(this.BtnCreate);
-            this.Controls.Add(this.TxtPassword);
-            this.Controls.Add(this.TxtUser);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.LblUsername);
-            this.Controls.Add(this.LblUser);
-            this.Margin = new System.Windows.Forms.Padding(4);
-=======
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(147)))), ((int)(((byte)(134)))));
             this.ClientSize = new System.Drawing.Size(871, 625);
             this.Controls.Add(this.panel2);
->>>>>>> 60d8a01104cc3906ddb2c5948b09750044359dd7
             this.Name = "Forms";
             this.Text = "User";
             this.Load += new System.EventHandler(this.Form1_Load);
