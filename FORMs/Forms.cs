@@ -9,6 +9,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Forms;
 
 namespace SugarStock
@@ -19,7 +20,8 @@ namespace SugarStock
         {
             InitializeComponent();
         }
-        
+
+
         Credenciales credenciales = new Credenciales();
         ORDENAR order = new ORDENAR();
         Menu_principal principalmenu = new Menu_principal();
@@ -37,15 +39,25 @@ namespace SugarStock
 
         private void BtnCreate_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             int id = int.Parse(TxtUser.Text);
             string password  = TxtPassword.Text;
            
 
             if (credenciales.Textcorrect(id, password) == true)
+=======
+            //int id = int.Parse(TxtUser.Text);
+            //string password  = TxtPassword.Text;
+            this.Hide();
+            principalmenu.Show();
+
+            //if (credenciales.Textcorrect(id, password) == true) 
+>>>>>>> 60d8a01104cc3906ddb2c5948b09750044359dd7
             {
-                principalmenu.Show();
-                this.Hide();
+                //principalmenu.Show();
+                //this.Hide();
             }
+<<<<<<< HEAD
             else if (id == 0000 && password == "Admin00")
             {
                 Owner Ownermenu = new Owner();
@@ -61,6 +73,8 @@ namespace SugarStock
 
             }
 
+=======
+>>>>>>> 60d8a01104cc3906ddb2c5948b09750044359dd7
 
 
 
@@ -76,13 +90,112 @@ namespace SugarStock
         {
             BtnCreate.ForeColor = Color.White;
             BtnCreate.BackColor = Color.Black;
-            
+
         }
 
         private void BtnCreate_MouseLeave(object sender, EventArgs e)
         {
             BtnCreate.BackColor = Color.White;
-            BtnCreate.ForeColor= Color.Black;
+            BtnCreate.ForeColor = Color.Black;
+        }
+
+        private void TxtPassword_TextChanged(object sender, EventArgs e)
+        {
+            bool isTextNotEmpty = !string.IsNullOrEmpty(TxtPassword.Text);
+
+            if (isTextNotEmpty)
+            {
+                btnlookpass.IconColor = Color.Black;
+                btnlookpass.IconSize = 25;
+                btnlookpass.Enabled = true;
+            }
+
+            else
+            {
+                btnlookpass.IconColor = Color.White;
+                btnlookpass.IconSize = 1;
+                btnlookpass.Enabled = false;
+            }
+
+        }
+
+        private void TxtUser_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtUser_Enter(object sender, EventArgs e)
+        {
+            if (TxtUser.Text == "Username:")
+            {
+                TxtUser.Text = "";
+                TxtUser.ForeColor = Color.Black;
+            }
+        }
+
+        private void TxtUser_Leave(object sender, EventArgs e)
+        {
+            if (TxtUser.Text == "")
+            {
+                TxtUser.Text = "Username:";
+                TxtUser.ForeColor = Color.LightGray;
+            }
+        }
+
+        private void TxtPassword_Enter(object sender, EventArgs e)
+        {
+            if (TxtPassword.Text == "Password:")
+            {
+                TxtPassword.Text = "";
+                TxtPassword.ForeColor = Color.Black;
+                TxtPassword.PasswordChar = Convert.ToChar("•");
+
+            }
+
+        }
+
+        private void TxtPassword_Leave(object sender, EventArgs e)
+        {
+            if (TxtPassword.Text == "")
+            {
+                TxtPassword.Text = "Password:";
+                TxtPassword.ForeColor = Color.LightGray;
+                TxtPassword.PasswordChar = (char)0;
+                btnlookpass.IconColor = Color.White;
+                btnlookpass.IconSize = 1;
+                btnlookpass.Enabled = false;
+
+            }
+        }
+
+        private void btnlookpass_Click(object sender, EventArgs e)
+        {
+            if (btnlookpass.Enabled == true)
+            {
+                if (TxtPassword.PasswordChar == Convert.ToChar("•"))
+                {
+                    TxtPassword.PasswordChar = (char)0;
+                    btnlookpass.IconChar = FontAwesome.Sharp.IconChar.Eye;
+                }
+                else if (TxtPassword.PasswordChar == (char)0)
+                {
+                    TxtPassword.PasswordChar = Convert.ToChar("•");
+                    btnlookpass.IconChar = FontAwesome.Sharp.IconChar.EyeSlash;
+                }
+            }
+        }
+
+        private void Ocultarpass()
+        {
+            if (TxtPassword.PasswordChar == (char)0)
+            {
+                TxtPassword.PasswordChar = Convert.ToChar("•");
+                btnlookpass.IconChar = FontAwesome.Sharp.IconChar.EyeSlash;
+            }
+            else if (TxtPassword.PasswordChar == Convert.ToChar("•"))
+            {
+                TxtPassword.PasswordChar = (char)0;
+            }
         }
 
         private void TxtUser_TextChanged(object sender, EventArgs e)
