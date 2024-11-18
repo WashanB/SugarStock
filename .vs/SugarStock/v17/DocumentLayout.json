@@ -1,21 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\basti\\source\\documents\\c#\\",
+  "WorkspaceRootPath": "C:\\Users\\basti\\OneDrive\\Documents\\2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\basti\\source\\documents\\c#\\forms\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\basti\\onedrive\\documents\\programming\\menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\basti\\source\\documents\\c#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\basti\\source\\documents\\c#\\forms\\forms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\basti\\onedrive\\documents\\2\\forms\\forms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\forms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\basti\\OneDrive\\Documents\\2\\forms\\forms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\forms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\basti\\OneDrive\\Documents\\2\\models\\credenciales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:models\\credenciales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,19 +25,6 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\basti\\source\\documents\\c#\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\basti\\source\\documents\\c#\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T21:57:27.304Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
@@ -49,41 +33,44 @@
               "Name": "ST:1533048680:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Owner.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\basti\\source\\documents\\c#\\FORMs\\Owner.cs",
-              "RelativeDocumentMoniker": "FORMs\\Owner.cs",
-              "ToolTip": "C:\\Users\\basti\\source\\documents\\c#\\FORMs\\Owner.cs [Design]",
-              "RelativeToolTip": "FORMs\\Owner.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T22:17:17.894Z",
-              "EditorCaption": " [Design]"
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Forms.cs",
-              "DocumentMoniker": "C:\\Users\\basti\\source\\documents\\c#\\FORMs\\Forms.cs",
+              "DocumentMoniker": "C:\\Users\\basti\\OneDrive\\Documents\\2\\FORMs\\Forms.cs",
               "RelativeDocumentMoniker": "FORMs\\Forms.cs",
-              "ToolTip": "C:\\Users\\basti\\source\\documents\\c#\\FORMs\\Forms.cs",
+              "ToolTip": "C:\\Users\\basti\\OneDrive\\Documents\\2\\FORMs\\Forms.cs",
               "RelativeToolTip": "FORMs\\Forms.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAcwC0AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAIwC4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T21:57:45.358Z",
+              "WhenOpened": "2024-11-18T14:37:29.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Menu_principal.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\basti\\OneDrive\\Documents\\Programming\\Menu_principal.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\Documents\\Programming\\Menu_principal.cs",
-              "ToolTip": "C:\\Users\\basti\\OneDrive\\Documents\\Programming\\Menu_principal.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\OneDrive\\Documents\\Programming\\Menu_principal.cs [Design]",
+              "Title": "Forms.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\basti\\OneDrive\\Documents\\2\\FORMs\\Forms.cs",
+              "RelativeDocumentMoniker": "FORMs\\Forms.cs",
+              "ToolTip": "C:\\Users\\basti\\OneDrive\\Documents\\2\\FORMs\\Forms.cs [Design]",
+              "RelativeToolTip": "FORMs\\Forms.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T20:56:25.513Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-18T14:33:39.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Credenciales.cs",
+              "DocumentMoniker": "C:\\Users\\basti\\OneDrive\\Documents\\2\\Models\\Credenciales.cs",
+              "RelativeDocumentMoniker": "Models\\Credenciales.cs",
+              "ToolTip": "C:\\Users\\basti\\OneDrive\\Documents\\2\\Models\\Credenciales.cs",
+              "RelativeToolTip": "Models\\Credenciales.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T14:33:01.886Z"
             }
           ]
         },

@@ -24,6 +24,7 @@ namespace SugarStock
         ORDENAR order = new ORDENAR();
         Menu_principal principalmenu = new Menu_principal();
 
+
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -38,16 +39,31 @@ namespace SugarStock
         {
             int id = int.Parse(TxtUser.Text);
             string password  = TxtPassword.Text;
-            principalmenu.Show();
-            this.Hide();
-            if (credenciales.Textcorrect(id, password) == true) 
+           
+
+            if (credenciales.Textcorrect(id, password) == true)
             {
                 principalmenu.Show();
                 this.Hide();
             }
-           
-            
-            
+            else if (id == 0000 && password == "Admin00")
+            {
+                Owner Ownermenu = new Owner();
+                Ownermenu.Show();
+                this.Hide();
+
+            }
+            else
+
+            {
+
+                MessageBox.Show("Credenciales incorrectas. Inténtalo de nuevo.");
+
+            }
+
+
+
+
 
         }
 
@@ -67,6 +83,11 @@ namespace SugarStock
         {
             BtnCreate.BackColor = Color.White;
             BtnCreate.ForeColor= Color.Black;
+        }
+
+        private void TxtUser_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -72,15 +72,16 @@
             // TxtUser
             // 
             this.TxtUser.Location = new System.Drawing.Point(245, 98);
-            this.TxtUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtUser.Margin = new System.Windows.Forms.Padding(4);
             this.TxtUser.Name = "TxtUser";
             this.TxtUser.Size = new System.Drawing.Size(241, 22);
             this.TxtUser.TabIndex = 3;
+            this.TxtUser.TextChanged += new System.EventHandler(this.TxtUser_TextChanged);
             // 
             // TxtPassword
             // 
             this.TxtPassword.Location = new System.Drawing.Point(245, 203);
-            this.TxtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtPassword.Margin = new System.Windows.Forms.Padding(4);
             this.TxtPassword.Name = "TxtPassword";
             this.TxtPassword.Size = new System.Drawing.Size(241, 22);
             this.TxtPassword.TabIndex = 4;
@@ -90,7 +91,7 @@
             this.BtnCreate.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BtnCreate.ForeColor = System.Drawing.SystemColors.ControlText;
             this.BtnCreate.Location = new System.Drawing.Point(315, 308);
-            this.BtnCreate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnCreate.Margin = new System.Windows.Forms.Padding(4);
             this.BtnCreate.Name = "BtnCreate";
             this.BtnCreate.Size = new System.Drawing.Size(127, 50);
             this.BtnCreate.TabIndex = 5;
@@ -112,7 +113,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LblUsername);
             this.Controls.Add(this.LblUser);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Forms";
             this.Text = "User";
             this.Load += new System.EventHandler(this.Form1_Load);
