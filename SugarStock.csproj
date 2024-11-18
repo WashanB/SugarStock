@@ -64,13 +64,11 @@
     <Compile Include="FORMs\Forms.Designer.cs">
       <DependentUpon>Forms.cs</DependentUpon>
     </Compile>
-    <Compile Include="..\..\..\OneDrive\Documents\Programming\Menu_principal.cs">
+    <Compile Include="FORMs\Menu_principal.cs">
       <SubType>Form</SubType>
-      <Link>FORMs\Menu_principal.cs</Link>
     </Compile>
-    <Compile Include="..\..\..\OneDrive\Documents\Programming\Menu_principal.Designer.cs">
+    <Compile Include="FORMs\Menu_principal.Designer.cs">
       <DependentUpon>Menu_principal.cs</DependentUpon>
-      <Link>FORMs\Menu_principal.Designer.cs</Link>
     </Compile>
     <Compile Include="FORMs\ORDENAR.cs">
       <SubType>Form</SubType>
@@ -88,12 +86,12 @@
     <Compile Include="Models\Nav.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Resources\Component 3.png" />
     <EmbeddedResource Include="FORMs\Forms.resx">
       <DependentUpon>Forms.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="..\..\..\OneDrive\Documents\Programming\Menu_principal.resx">
+    <EmbeddedResource Include="FORMs\Menu_principal.resx">
       <DependentUpon>Menu_principal.cs</DependentUpon>
-      <Link>FORMs\Menu_principal.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="FORMs\ORDENAR.resx">
       <DependentUpon>ORDENAR.cs</DependentUpon>
@@ -106,6 +104,11 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -150,6 +153,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Untitled 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

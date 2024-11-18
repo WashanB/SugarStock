@@ -121,25 +121,28 @@
   <data name="image 6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image 6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="brownies-de-chocolate-2 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\brownies-de-chocolate-2 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="images11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Merengue-Frances-Receta-6 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Merengue-Frances-Receta-6 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Untitled 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Untitled 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Untitled 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Untitled 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brownies-de-chocolate-2 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\brownies-de-chocolate-2 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Merengue-Frances-Receta-6 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Merengue-Frances-Receta-6 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Component 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Component 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
