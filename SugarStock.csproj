@@ -58,6 +58,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Files\TXT.cs" />
+    <Compile Include="FORMs\AllProgram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMs\AllProgram.Designer.cs">
+      <DependentUpon>AllProgram.cs</DependentUpon>
+    </Compile>
     <Compile Include="FORMs\Forms.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,7 +92,11 @@
     <Compile Include="Models\Nav.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Resources\WhatsApp Image 2024-11-10 at 5.31.08 PM.jpeg" />
     <None Include="Resources\Component 3.png" />
+    <EmbeddedResource Include="FORMs\AllProgram.resx">
+      <DependentUpon>AllProgram.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FORMs\Forms.resx">
       <DependentUpon>Forms.cs</DependentUpon>
     </EmbeddedResource>
@@ -104,6 +114,8 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <Content Include="Files\content\font-awesome.css" />
+    <Content Include="Files\content\font-awesome.min.css" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.woff" />

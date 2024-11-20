@@ -7,8 +7,10 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
 
@@ -100,12 +102,55 @@ namespace SugarStock.FORMs
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-
+            string pname = "Alfajores";
+            string pdesc = "El alfajor es un dulce tradicional de América Latina y España, " +
+                "compuesto por dos capas de masa suave rellenas de dulce de leche y," +
+                " a menudo, cubierto con chocolate o azúcar glas." +
+                " Se disfruta especialmente en festividades y tiene varias variantes regionales.";
+            string image = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "Untitled 1.png");
+            double pprice = 200;
+            order.changeCont(pname, pdesc, image, pprice);
+            order.Show();
+            this.Hide(); 
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+
+            string pname = "Imposible";
+            string pdesc = "El imposible es un postre tradicional de América Latina, similar a un flan, hecho con capas de caramelo" +
+                " y una mezcla de leche, azúcar, huevos y vainilla. Su textura es suave y cremosa, y se caracteriza " +
+                "por su sabor dulce y su presentación en capas, con el caramelo en la base que se convierte en un delicioso sirope.";
+            string image = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "Untitled 2.png");
+            double pprice = 350;
+            order.changeCont(pname, pdesc, image, pprice);
+            order.Show();
+            this.Hide();
+
+
+
+        }
+
+        private void pictureBox9_Click_1(object sender, EventArgs e)
+        {
+            string pname = "Galletas decoradas";
+            string pdesc = "Galletas de vainilla con decoraciones de todo tipo, haz brillar tu imaginacion con estas deliciosas galletas que te llevaran" +
+                " a mundos increibles e imaginarios. Ahora al alcance de tu paladar.";
+            string image = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "C:\\Users\\basti\\OneDrive\\Documents\\2\\3\\Resources\\WhatsApp Image 2024-11-10 at 5.31.08 PM.jpeg");
+            double pprice = 50;
+            order.changeCont(pname, pdesc, image, pprice);
+            order.Show();
+            this.Hide();
         }
     }
 }

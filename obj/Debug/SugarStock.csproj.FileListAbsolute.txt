@@ -81,3 +81,23 @@ C:\Users\carlo\OneDrive\Documentos\MECAGO EN TODO\obj\Debug\SugarStock.csproj.Up
 C:\Users\carlo\OneDrive\Documentos\MECAGO EN TODO\obj\Debug\SugarStock.exe
 C:\Users\carlo\OneDrive\Documentos\MECAGO EN TODO\obj\Debug\SugarStock.pdb
 >>>>>>> 60d8a01104cc3906ddb2c5948b09750044359dd7
+C:\Users\basti\OneDrive\Documents\2\3\bin\Debug\SugarStock.exe.config
+C:\Users\basti\OneDrive\Documents\2\3\bin\Debug\SugarStock.exe
+C:\Users\basti\OneDrive\Documents\2\3\bin\Debug\SugarStock.pdb
+C:\Users\basti\OneDrive\Documents\2\3\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\basti\OneDrive\Documents\2\3\bin\Debug\Spire.Pdf.dll
+C:\Users\basti\OneDrive\Documents\2\3\bin\Debug\Microsoft.mshtml.dll
+C:\Users\basti\OneDrive\Documents\2\3\bin\Debug\Spire.Pdf.xml
+C:\Users\basti\OneDrive\Documents\2\3\obj\Debug\SugarStock.csproj.AssemblyReference.cache
+C:\Users\basti\OneDrive\Documents\2\3\obj\Debug\SugarStock.g.resources
+C:\Users\basti\OneDrive\Documents\2\3\obj\Debug\SugarStock.Forms.resources
+C:\Users\basti\OneDrive\Documents\2\3\obj\Debug\SugarStock.FORMs.Menu_principal.resources
+C:\Users\basti\OneDrive\Documents\2\3\obj\Debug\SugarStock.FORMs.ORDENAR.resources
+C:\Users\basti\OneDrive\Documents\2\3\obj\Debug\SugarStock.FORMs.Owner.resources
+C:\Users\basti\OneDrive\Documents\2\3\obj\Debug\SugarStock.Properties.Resources.resources
+C:\Users\basti\OneDrive\Documents\2\3\obj\Debug\SugarStock.csproj.GenerateResource.cache
+C:\Users\basti\OneDrive\Documents\2\3\obj\Debug\SugarStock.csproj.CoreCompileInputs.cache
+C:\Users\basti\OneDrive\Documents\2\3\obj\Debug\SugarStock.csproj.Up2Date
+C:\Users\basti\OneDrive\Documents\2\3\obj\Debug\SugarStock.exe
+C:\Users\basti\OneDrive\Documents\2\3\obj\Debug\SugarStock.pdb
+C:\Users\basti\OneDrive\Documents\2\3\obj\Debug\SugarStock.FORMs.AllProgram.resources

@@ -82,6 +82,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Owner";
             this.Text = "Reposicion";
+            this.Load += new System.EventHandler(this.Owner_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

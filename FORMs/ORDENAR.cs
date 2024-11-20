@@ -16,13 +16,14 @@ namespace SugarStock.FORMs
         {
             InitializeComponent();
         }
+        int cant = 1;
         
-
         public void changeCont(string nombre,string desc, string imagepath, double price)
         {
             Namelb.Text = nombre;
             DescLB.Text = desc;
             PBimage.Image = Image.FromFile(imagepath);
+
             PriceLB.Text = $"{price} C$";
         }
 
@@ -42,9 +43,9 @@ namespace SugarStock.FORMs
             {
                 Lesscant.Enabled = true;
             }
-            int index = int.Parse(CantLB.Text);
-            index += 1;
-            CantLB.Text  = index.ToString();
+            cant = int.Parse(CantLB.Text);
+            cant += 1;
+            CantLB.Text  = cant.ToString();
             
         }
 
@@ -55,9 +56,9 @@ namespace SugarStock.FORMs
             }
             else
             {
-                int index = int.Parse(CantLB.Text);
-                index -= 1;
-                CantLB.Text = index.ToString();
+                int cant = int.Parse(CantLB.Text);
+                cant -= 1;
+                CantLB.Text = cant.ToString();
             }
             
         }
@@ -72,6 +73,21 @@ namespace SugarStock.FORMs
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void PBimage_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void BtnCart_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"Se han agregado {cant} productos correctamente al carrito");
         }
     }
 }

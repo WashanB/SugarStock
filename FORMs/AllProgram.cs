@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace SugarStock.FORMs
 {
-    public partial class Owner : Form
+    public partial class AllProgram : Form
     {
-        public Owner()
+        public AllProgram()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Owner_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
