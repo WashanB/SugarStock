@@ -87,6 +87,7 @@
             this.TxtUser.Text = "Username:";
             this.TxtUser.TextChanged += new System.EventHandler(this.TxtUser_TextChanged);
             this.TxtUser.Enter += new System.EventHandler(this.TxtUser_Enter);
+            this.TxtUser.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtUser_KeyPress);
             this.TxtUser.Leave += new System.EventHandler(this.TxtUser_Leave);
             // 
             // TxtPassword
@@ -103,6 +104,7 @@
             this.TxtPassword.Text = "Password:";
             this.TxtPassword.TextChanged += new System.EventHandler(this.TxtPassword_TextChanged);
             this.TxtPassword.Enter += new System.EventHandler(this.TxtPassword_Enter);
+            this.TxtPassword.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtPassword_KeyPress);
             this.TxtPassword.Leave += new System.EventHandler(this.TxtPassword_Leave);
             // 
             // BtnCreate

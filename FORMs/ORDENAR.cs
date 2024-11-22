@@ -91,5 +91,15 @@ namespace SugarStock.FORMs
         {
             MessageBox.Show($"Se han agregado {cant} productos correctamente al carrito");
         }
+
+        private void Namelb_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

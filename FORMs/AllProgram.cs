@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Controls;
 using System.Windows.Forms;
 using FontAwesome.Sharp;
+using SugarStock.Models;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
 
 namespace SugarStock.FORMs
@@ -19,6 +20,8 @@ namespace SugarStock.FORMs
         private IconButton currentBtn;
         private System.Windows.Forms.Panel leftBorderBtn;
         private Form currentChildForm;
+        private PostresManager postresManager;
+        
         public AllProgram()
         {
             InitializeComponent();
@@ -28,8 +31,12 @@ namespace SugarStock.FORMs
             this.Text = string.Empty;
             this.ControlBox = false;
             this.DoubleBuffered = true;
+            postresManager = new PostresManager();
+
 
         }
+        
+        
 
         private struct Colors
         {
@@ -94,12 +101,13 @@ namespace SugarStock.FORMs
         private void AccountBtn_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, Colors.color1);
+            OpenChildForm(new idk());
         }
 
         private void CartBtn_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, Colors.color2);
-            
+            OpenChildForm(new Listbox());
         }
 
         private void ProductsBtn_Click(object sender, EventArgs e)

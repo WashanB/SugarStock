@@ -26,13 +26,6 @@ namespace SugarStock.FORMs
             InitializeComponent();
             this.mainForm = mainForm;
         }
-
-        private ORDENAR order;
-        
-        
-        
-
-
        
         private void pictureBox4_Click(object sender, EventArgs e)
         {
@@ -69,7 +62,7 @@ namespace SugarStock.FORMs
             string pdesc = "Son pequeños bocados de aire puro, ligeros y dulces. Se elaboran principalmente con claras de huevo batidas a punto de nieve y azúcar glasé. Su textura es crujiente por fuera y suave por dentro, con un sabor dulce y delicado";
             string image = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "Merengue-Frances-Receta-6 1.png");
             double pprice = 40;
-            order.changeCont(pname, pdesc, image, pprice);
+            
 
             // Abre el formulario ORDENAR pasando los datos necesarios
             mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice));
@@ -116,10 +109,7 @@ namespace SugarStock.FORMs
         private void pictureBox7_Click(object sender, EventArgs e)
         {
             string pname = "Alfajores";
-            string pdesc = "El alfajor es un dulce tradicional de América Latina y España, " +
-                "compuesto por dos capas de masa suave rellenas de dulce de leche y," +
-                " a menudo, cubierto con chocolate o azúcar glas." +
-                " Se disfruta especialmente en festividades y tiene varias variantes regionales.";
+            string pdesc = "El alfajor es un dulce tradicional de América Latina y España, compuesto por dos capas de masa suave rellenas de dulce de leche y, a menudo, cubierto con chocolate o azúcar glas. Se disfruta especialmente en festividades y tiene varias variantes regionales.";
             string image = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "Untitled 1.png");
             double pprice = 200;
             
@@ -142,9 +132,7 @@ namespace SugarStock.FORMs
         {
 
             string pname = "Imposible";
-            string pdesc = "El imposible es un postre tradicional de América Latina, similar a un flan, hecho con capas de caramelo" +
-                " y una mezcla de leche, azúcar, huevos y vainilla. Su textura es suave y cremosa, y se caracteriza " +
-                "por su sabor dulce y su presentación en capas, con el caramelo en la base que se convierte en un delicioso sirope.";
+            string pdesc = "El imposible es un postre tradicional de América Latina, similar a un flan, hecho con capas de caramelo y una mezcla de leche, azúcar, huevos y vainilla. Su textura es suave y cremosa, y se caracteriza por su sabor dulce y su presentación en capas, con el caramelo en la base que se convierte en un delicioso sirope.";
             string image = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "Untitled 2.png");
             double pprice = 350;
             
@@ -159,8 +147,7 @@ namespace SugarStock.FORMs
         private void pictureBox9_Click_1(object sender, EventArgs e)
         {
             string pname = "Galletas decoradas";
-            string pdesc = "Galletas de vainilla con decoraciones de todo tipo, haz brillar tu imaginacion con estas deliciosas galletas que te llevaran" +
-                " a mundos increibles e imaginarios. Ahora al alcance de tu paladar.";
+            string pdesc = "Galletas de vainilla con decoraciones de todo tipo, haz brillar tu imaginacion con estas deliciosas galletas que te llevaran a mundos increibles e imaginarios. Ahora al alcance de tu paladar.";
             string image = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "WhatsApp Image 2024-11-10 at 5.31.08 PM");
             double pprice = 50;
             
@@ -169,6 +156,9 @@ namespace SugarStock.FORMs
             mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice));
         }
 
-        
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -70,6 +70,18 @@
     <Compile Include="FORMs\Forms.Designer.cs">
       <DependentUpon>Forms.cs</DependentUpon>
     </Compile>
+    <Compile Include="FORMs\idk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMs\idk.Designer.cs">
+      <DependentUpon>idk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMs\Listbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMs\Listbox.Designer.cs">
+      <DependentUpon>Listbox.cs</DependentUpon>
+    </Compile>
     <Compile Include="FORMs\Menu_principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +102,8 @@
     </Compile>
     <Compile Include="Models\Credenciales.cs" />
     <Compile Include="Models\Nav.cs" />
+    <Compile Include="Models\Postres.cs" />
+    <Compile Include="Models\PostresManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <None Include="Resources\cruz.png" />
@@ -100,6 +114,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FORMs\Forms.resx">
       <DependentUpon>Forms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMs\idk.resx">
+      <DependentUpon>idk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMs\Listbox.resx">
+      <DependentUpon>Listbox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FORMs\Menu_principal.resx">
       <DependentUpon>Menu_principal.cs</DependentUpon>

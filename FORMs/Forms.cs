@@ -19,11 +19,14 @@ namespace SugarStock
         public Forms()
         {
             InitializeComponent();
+            // Suscribirse a los eventos KeyPress de ambos TextBox
+            TxtUser.KeyPress += TxtUser_KeyPress;
+            TxtPassword.KeyPress += TxtPassword_KeyPress;
         }
 
 
         Credenciales credenciales = new Credenciales();
-        ORDENAR order = new ORDENAR();
+        
         AllProgram programstart = new AllProgram();
 
         private void Form1_Load(object sender, EventArgs e)
@@ -174,6 +177,71 @@ namespace SugarStock
             else if (TxtPassword.PasswordChar == Convert.ToChar("•"))
             {
                 TxtPassword.PasswordChar = (char)0;
+            }
+        }
+
+        private void TxtUser_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Verificar si se presionó la tecla de espacio
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                // Si textBox2 está vacío, evitar la entrada del espacio
+                if (string.IsNullOrWhiteSpace(TxtPassword.Text))
+                {
+                    e.Handled = true; // Evitar que se ingrese el espacio
+                    
+                }
+                else if (!string.IsNullOrWhiteSpace(TxtUser.Text) && !string.IsNullOrWhiteSpace(TxtPassword.Text))
+                {
+                    int id = int.Parse(TxtUser.Text);
+                    string password = TxtPassword.Text;
+                    
+
+
+                    if (credenciales.Textcorrect(id, password) == true)
+                    {
+                        programstart.Show();
+                        this.Hide();
+                    }
+                    else if (id == 0000 && password == "Admin00")
+                    {
+                        Owner Menuowner = new Owner();
+                        Menuowner.Show();
+                        this.Hide();
+                    }
+                }
+            }
+        }
+
+        private void TxtPassword_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                // Si textBox1 está vacío, evitar la entrada del Enter
+                if (string.IsNullOrWhiteSpace(TxtUser.Text))
+                {
+                    e.Handled = true; // Evitar que se ingrese el Enter
+                    
+                }
+                else if (!string.IsNullOrWhiteSpace(TxtUser.Text) && !string.IsNullOrWhiteSpace(TxtPassword.Text))
+                {
+                    int id = int.Parse(TxtUser.Text);
+                    string password = TxtPassword.Text;
+                    
+
+
+                    if (credenciales.Textcorrect(id, password) == true)
+                    {
+                        programstart.Show();
+                        this.Hide();
+                    }
+                    else if (id == 0000 && password == "Admin00")
+                    {
+                        Owner Menuowner = new Owner();
+                        Menuowner.Show();
+                        this.Hide();
+                    }
+                }
             }
         }
     }
