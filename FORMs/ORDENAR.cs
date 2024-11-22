@@ -12,19 +12,26 @@ namespace SugarStock.FORMs
 {
     public partial class ORDENAR : Form
     {
-        public ORDENAR()
+        public ORDENAR(string nombre, string desc, string imagepath, double price)
         {
             InitializeComponent();
+            changeCont(nombre, desc, imagepath, price);
         }
         int cant = 1;
-        
-        public void changeCont(string nombre,string desc, string imagepath, double price)
-        {
-            Namelb.Text = nombre;
-            DescLB.Text = desc;
-            PBimage.Image = Image.FromFile(imagepath);
 
-            PriceLB.Text = $"{price} C$";
+        public void changeCont(string nombre, string desc, string imagepath, double price)
+        {
+            try
+            {
+                Namelb.Text = nombre;
+                DescLB.Text = desc;
+                PBimage.Image = Image.FromFile(imagepath);
+                PriceLB.Text = $"{price} C$";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al cargar datos: {ex.Message}");
+            }
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -63,12 +70,7 @@ namespace SugarStock.FORMs
             
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Menu_principal menu_Principal = new Menu_principal();
-            menu_Principal.Show();
-            this.Hide();
-        }
+        
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {

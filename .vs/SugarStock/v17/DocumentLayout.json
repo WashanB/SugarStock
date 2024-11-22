@@ -1,34 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\basti\\OneDrive\\Documents\\2\\3\\",
+  "WorkspaceRootPath": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGO EN TODO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\basti\\OneDrive\\Documents\\2\\3\\forms\\ordenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\ordenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\basti\\OneDrive\\Documents\\2\\3\\forms\\ordenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\ordenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\basti\\OneDrive\\Documents\\2\\3\\forms\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\basti\\onedrive\\documents\\2\\3\\forms\\allprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\carlo\\onedrive\\documentos\\mecago en todo\\forms\\allprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\allprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\basti\\OneDrive\\Documents\\2\\3\\forms\\menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\carlo\\onedrive\\documentos\\mecago en todo\\forms\\allprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\allprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGO EN TODO\\forms\\ordenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\ordenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\carlo\\onedrive\\documentos\\mecago en todo\\forms\\forms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\forms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGO EN TODO\\forms\\menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\basti\\onedrive\\documents\\2\\3\\forms\\menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGO EN TODO\\forms\\ordenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\ordenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGO EN TODO\\forms\\menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\basti\\OneDrive\\Documents\\2\\3\\forms\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGO EN TODO\\forms\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGO EN TODO\\forms\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,94 +58,127 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Menu_principal.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\basti\\OneDrive\\Documents\\2\\3\\FORMs\\Menu_principal.cs",
-              "RelativeDocumentMoniker": "FORMs\\Menu_principal.cs",
-              "ToolTip": "C:\\Users\\basti\\OneDrive\\Documents\\2\\3\\FORMs\\Menu_principal.cs [Design]",
-              "RelativeToolTip": "FORMs\\Menu_principal.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T20:56:01.72Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AllProgram.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\basti\\OneDrive\\Documents\\2\\3\\FORMs\\AllProgram.cs",
-              "RelativeDocumentMoniker": "FORMs\\AllProgram.cs",
-              "ToolTip": "C:\\Users\\basti\\OneDrive\\Documents\\2\\3\\FORMs\\AllProgram.cs [Design]",
-              "RelativeToolTip": "FORMs\\AllProgram.cs [Design]",
+              "Title": "Forms.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGO EN TODO\\FORMs\\Forms.cs",
+              "RelativeDocumentMoniker": "FORMs\\Forms.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGO EN TODO\\FORMs\\Forms.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FORMs\\Forms.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T20:37:28.753Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-22T03:57:31.288Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ORDENAR.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\basti\\OneDrive\\Documents\\2\\3\\FORMs\\ORDENAR.cs",
+              "Title": "AllProgram.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGO EN TODO\\FORMs\\AllProgram.cs",
+              "RelativeDocumentMoniker": "FORMs\\AllProgram.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGO EN TODO\\FORMs\\AllProgram.cs*",
+              "RelativeToolTip": "FORMs\\AllProgram.cs*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAtwFwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T00:32:59.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AllProgram.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGO EN TODO\\FORMs\\AllProgram.cs",
+              "RelativeDocumentMoniker": "FORMs\\AllProgram.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGO EN TODO\\FORMs\\AllProgram.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "FORMs\\AllProgram.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T20:37:28.753Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ORDENAR.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGO EN TODO\\FORMs\\ORDENAR.cs",
               "RelativeDocumentMoniker": "FORMs\\ORDENAR.cs",
-              "ToolTip": "C:\\Users\\basti\\OneDrive\\Documents\\2\\3\\FORMs\\ORDENAR.cs [Design]*",
-              "RelativeToolTip": "FORMs\\ORDENAR.cs [Design]*",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGO EN TODO\\FORMs\\ORDENAR.cs",
+              "RelativeToolTip": "FORMs\\ORDENAR.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T16:51:22.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Menu_principal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGO EN TODO\\FORMs\\Menu_principal.cs",
+              "RelativeDocumentMoniker": "FORMs\\Menu_principal.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGO EN TODO\\FORMs\\Menu_principal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FORMs\\Menu_principal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T20:56:01.72Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ORDENAR.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGO EN TODO\\FORMs\\ORDENAR.cs",
+              "RelativeDocumentMoniker": "FORMs\\ORDENAR.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGO EN TODO\\FORMs\\ORDENAR.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FORMs\\ORDENAR.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T20:34:28.099Z",
-              "EditorCaption": " [Design]"
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Menu_principal.cs",
-              "DocumentMoniker": "C:\\Users\\basti\\OneDrive\\Documents\\2\\3\\FORMs\\Menu_principal.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGO EN TODO\\FORMs\\Menu_principal.cs",
               "RelativeDocumentMoniker": "FORMs\\Menu_principal.cs",
-              "ToolTip": "C:\\Users\\basti\\OneDrive\\Documents\\2\\3\\FORMs\\Menu_principal.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGO EN TODO\\FORMs\\Menu_principal.cs",
               "RelativeToolTip": "FORMs\\Menu_principal.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAjwF8AAABSAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAArwB0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T20:33:49.987Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Owner.cs",
-              "DocumentMoniker": "C:\\Users\\basti\\OneDrive\\Documents\\2\\3\\FORMs\\Owner.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGO EN TODO\\FORMs\\Owner.cs",
               "RelativeDocumentMoniker": "FORMs\\Owner.cs",
-              "ToolTip": "C:\\Users\\basti\\OneDrive\\Documents\\2\\3\\FORMs\\Owner.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGO EN TODO\\FORMs\\Owner.cs",
               "RelativeToolTip": "FORMs\\Owner.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T20:33:37.845Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Owner.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\basti\\OneDrive\\Documents\\2\\3\\FORMs\\Owner.cs",
+              "DocumentIndex": 8,
+              "Title": "Owner.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGO EN TODO\\FORMs\\Owner.cs",
               "RelativeDocumentMoniker": "FORMs\\Owner.cs",
-              "ToolTip": "C:\\Users\\basti\\OneDrive\\Documents\\2\\3\\FORMs\\Owner.cs [Design]",
-              "RelativeToolTip": "FORMs\\Owner.cs [Design]",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGO EN TODO\\FORMs\\Owner.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FORMs\\Owner.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T20:33:31.821Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ORDENAR.cs",
-              "DocumentMoniker": "C:\\Users\\basti\\OneDrive\\Documents\\2\\3\\FORMs\\ORDENAR.cs",
-              "RelativeDocumentMoniker": "FORMs\\ORDENAR.cs",
-              "ToolTip": "C:\\Users\\basti\\OneDrive\\Documents\\2\\3\\FORMs\\ORDENAR.cs*",
-              "RelativeToolTip": "FORMs\\ORDENAR.cs*",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAIwFkAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T16:51:22.098Z",
-              "EditorCaption": ""
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         },

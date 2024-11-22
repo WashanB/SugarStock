@@ -101,3 +101,4 @@ C:\Users\basti\OneDrive\Documents\2\3\obj\Debug\SugarStock.csproj.Up2Date
 C:\Users\basti\OneDrive\Documents\2\3\obj\Debug\SugarStock.exe
 C:\Users\basti\OneDrive\Documents\2\3\obj\Debug\SugarStock.pdb
 C:\Users\basti\OneDrive\Documents\2\3\obj\Debug\SugarStock.FORMs.AllProgram.resources
+C:\Users\carlo\OneDrive\Documentos\MECAGO EN TODO\obj\Debug\SugarStock.FORMs.AllProgram.resources

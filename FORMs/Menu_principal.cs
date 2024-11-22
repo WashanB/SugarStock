@@ -18,14 +18,20 @@ namespace SugarStock.FORMs
 {
     public partial class Menu_principal : Form
     {
-        public Menu_principal()
+       
+        private AllProgram mainForm;
+
+        public Menu_principal(AllProgram mainForm)
         {
             InitializeComponent();
+            this.mainForm = mainForm;
         }
 
-        ORDENAR order = new ORDENAR();
+        private ORDENAR order;
         
-        Nav nav = new Nav();
+        
+        
+
 
        
         private void pictureBox4_Click(object sender, EventArgs e)
@@ -34,9 +40,10 @@ namespace SugarStock.FORMs
             string pdesc = "Clásico de la repostería casera, conocido por su sabor dulce y su textura húmeda y esponjosa. Se elabora con bananas maduras, que aportan un dulzor natural y una textura única. ";
             string image = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "images 3.png");
             double pprice = 120;
-            order.changeCont(pname, pdesc, image, pprice);
-            order.Show();
-            this.Hide();
+            
+
+            // Abre el formulario ORDENAR pasando los datos necesarios
+            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice));
         }
 
         private void label9_Click(object sender, EventArgs e)
@@ -50,9 +57,10 @@ namespace SugarStock.FORMs
             string pdesc = "Un postre cremoso y delicioso, hecho a base de queso , huevos, azúcar y una base crujiente, normalmente de galletas trituradas. Su textura suave y su sabor ligeramente ácido lo convierten en un postre muy popular en todo el mundo";
             string image = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "images 4.png");
             double pprice = 200;
-            order.changeCont(pname, pdesc, image, pprice);
-            order.ShowDialog();
-            this.Hide();
+            
+
+            // Abre el formulario ORDENAR pasando los datos necesarios
+            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice));
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
@@ -62,8 +70,9 @@ namespace SugarStock.FORMs
             string image = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "Merengue-Frances-Receta-6 1.png");
             double pprice = 40;
             order.changeCont(pname, pdesc, image, pprice);
-            order.ShowDialog();
-            this.Hide();
+
+            // Abre el formulario ORDENAR pasando los datos necesarios
+            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice));
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -72,20 +81,23 @@ namespace SugarStock.FORMs
             string pdesc = "Tiene una textura densa y húmeda, con un sabor intenso a chocolate. Su consistencia puede variar entre un centro más jugoso y un exterior ligeramente crujiente. Se suele preparar con chocolate, mantequilla, azúcar, huevos, harina y a menudo nueces.";
             string image = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "brownies-de-chocolate-2 1.png");
             double pprice = 180;
-            order.changeCont(pname, pdesc, image, pprice);
-            order.Show();
-            this.Hide();
+            
+
+            // Abre el formulario ORDENAR pasando los datos necesarios
+            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice));
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             string pname = "Tiramisú";
-            string pdesc = " Postre italiano , compuesto por capas de bizcocho empapado en café, intercaladas con una crema suave y cremosa a base de queso mascarpone, huevos y azúcar. Se suele espolvorear con cacao en polvo .";
+            string pdesc = " Postre italiano, compuesto por capas de bizcocho empapado en café, intercaladas con una crema suave y cremosa a base de queso mascarpone, huevos y azúcar. Se suele espolvorear con cacao en polvo.";
             string image = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "image 6.png");
             double pprice = 180;
-            order.changeCont(pname, pdesc, image, pprice);
-            order.Show();
-            this.Hide();
+            
+
+            // Abre el formulario ORDENAR pasando los datos necesarios
+            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice));
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -95,9 +107,10 @@ namespace SugarStock.FORMs
             //string image = "C:\\Users\\carlo\\OneDrive\\Music\\PROYECTO METODLOGIA\\SugarStock\\Resources\\images11.png";
             string image = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "images11.png");
             double pprice = 150;
-            order.changeCont(pname, pdesc, image, pprice);
-            order.Show();
-            this.Hide();
+            
+
+            // Abre el formulario ORDENAR pasando los datos necesarios
+            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice));
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
@@ -109,9 +122,10 @@ namespace SugarStock.FORMs
                 " Se disfruta especialmente en festividades y tiene varias variantes regionales.";
             string image = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "Untitled 1.png");
             double pprice = 200;
-            order.changeCont(pname, pdesc, image, pprice);
-            order.Show();
-            this.Hide(); 
+            
+
+            // Abre el formulario ORDENAR pasando los datos necesarios
+            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice));
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
@@ -133,9 +147,10 @@ namespace SugarStock.FORMs
                 "por su sabor dulce y su presentación en capas, con el caramelo en la base que se convierte en un delicioso sirope.";
             string image = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "Untitled 2.png");
             double pprice = 350;
-            order.changeCont(pname, pdesc, image, pprice);
-            order.Show();
-            this.Hide();
+            
+
+            // Abre el formulario ORDENAR pasando los datos necesarios
+            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice));
 
 
 
@@ -146,11 +161,14 @@ namespace SugarStock.FORMs
             string pname = "Galletas decoradas";
             string pdesc = "Galletas de vainilla con decoraciones de todo tipo, haz brillar tu imaginacion con estas deliciosas galletas que te llevaran" +
                 " a mundos increibles e imaginarios. Ahora al alcance de tu paladar.";
-            string image = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "C:\\Users\\basti\\OneDrive\\Documents\\2\\3\\Resources\\WhatsApp Image 2024-11-10 at 5.31.08 PM.jpeg");
+            string image = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "WhatsApp Image 2024-11-10 at 5.31.08 PM");
             double pprice = 50;
-            order.changeCont(pname, pdesc, image, pprice);
-            order.Show();
-            this.Hide();
+            
+
+            // Abre el formulario ORDENAR pasando los datos necesarios
+            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice));
         }
+
+        
     }
 }

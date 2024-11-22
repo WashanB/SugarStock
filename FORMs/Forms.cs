@@ -24,7 +24,7 @@ namespace SugarStock
 
         Credenciales credenciales = new Credenciales();
         ORDENAR order = new ORDENAR();
-        Menu_principal principalmenu = new Menu_principal();
+        AllProgram programstart = new AllProgram();
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -45,7 +45,7 @@ namespace SugarStock
 
             if (credenciales.Textcorrect(id, password) == true)
             {
-                principalmenu.Show();
+                programstart.Show();
                 this.Hide();
             }
             else if (id == 0000 && password == "Admin00")

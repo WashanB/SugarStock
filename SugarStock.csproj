@@ -92,6 +92,7 @@
     <Compile Include="Models\Nav.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Resources\cruz.png" />
     <None Include="Resources\WhatsApp Image 2024-11-10 at 5.31.08 PM.jpeg" />
     <None Include="Resources\Component 3.png" />
     <EmbeddedResource Include="FORMs\AllProgram.resx">
