@@ -107,7 +107,7 @@ namespace SugarStock.FORMs
         private void CartBtn_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, Colors.color2);
-            OpenChildForm(new Listbox());
+            OpenChildForm(new Carrito());
         }
 
         private void ProductsBtn_Click(object sender, EventArgs e)
@@ -162,6 +162,16 @@ namespace SugarStock.FORMs
         private void MinimizeBtn_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
+        }
+
+        private void TabName_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Fillpanel_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

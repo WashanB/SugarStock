@@ -76,11 +76,11 @@
     <Compile Include="FORMs\idk.Designer.cs">
       <DependentUpon>idk.cs</DependentUpon>
     </Compile>
-    <Compile Include="FORMs\Listbox.cs">
+    <Compile Include="FORMs\Carrito.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FORMs\Listbox.Designer.cs">
-      <DependentUpon>Listbox.cs</DependentUpon>
+    <Compile Include="FORMs\Carrito.Designer.cs">
+      <DependentUpon>Carrito.cs</DependentUpon>
     </Compile>
     <Compile Include="FORMs\Menu_principal.cs">
       <SubType>Form</SubType>
@@ -94,12 +94,6 @@
     <Compile Include="FORMs\ORDENAR.Designer.cs">
       <DependentUpon>ORDENAR.cs</DependentUpon>
     </Compile>
-    <Compile Include="FORMs\Owner.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FORMs\Owner.Designer.cs">
-      <DependentUpon>Owner.cs</DependentUpon>
-    </Compile>
     <Compile Include="Models\Credenciales.cs" />
     <Compile Include="Models\Nav.cs" />
     <Compile Include="Models\Postres.cs" />
@@ -107,7 +101,6 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <None Include="Resources\cruz.png" />
-    <None Include="Resources\WhatsApp Image 2024-11-10 at 5.31.08 PM.jpeg" />
     <None Include="Resources\Component 3.png" />
     <EmbeddedResource Include="FORMs\AllProgram.resx">
       <DependentUpon>AllProgram.cs</DependentUpon>
@@ -118,17 +111,14 @@
     <EmbeddedResource Include="FORMs\idk.resx">
       <DependentUpon>idk.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FORMs\Listbox.resx">
-      <DependentUpon>Listbox.cs</DependentUpon>
+    <EmbeddedResource Include="FORMs\Carrito.resx">
+      <DependentUpon>Carrito.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FORMs\Menu_principal.resx">
       <DependentUpon>Menu_principal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FORMs\ORDENAR.resx">
       <DependentUpon>ORDENAR.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FORMs\Owner.resx">
-      <DependentUpon>Owner.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
